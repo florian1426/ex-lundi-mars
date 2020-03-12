@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="ex2.css">
+    <link href="https://fonts.googleapis.com/css?family=Kreon&display=swap" rel="stylesheet">
+    <title>styles</title>
+
+
+</head>
+
+<body>
+    <script type="text/javascript">
+        function changer_style() {
+            var p = document.getElementById('parag1');
+            p.style.color = "white";
+            p.style.backgroundColor = "red";
+            p.style.border = "2px dotted black";
+            p.style.padding = "5px";
+
+            // function changer_style() {
+
+            //     var p = document.getElementById('parag1');
+            //     p.classList.add("active");
+
+            // }
+
+        }
+    </script>
+
+    <p id="parag1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <button onclick="changer_style()">Changer Style</button>
+
+</body>
